@@ -34,3 +34,8 @@ Questions:
 Is 5 the category for missing age group. 
 was covthnk_decoded asked for adults only?
 I dont have access to tthe variable AGED which is the numeric age..why?
+
+```{r}
+
+```
+

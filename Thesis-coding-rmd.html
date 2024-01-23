@@ -409,9 +409,15 @@ library(tidyr)</code></pre>
 <p><strong>Creating smaller dataset with needed information</strong></p>
 <pre class="r"><code>cov_sub1 = covfmt_df %&gt;% 
 select(agegr1n, racen, sexn, ethnicn, edgr1n, incgr1n, covthnk, lbcovrsnas, mar, livsit, livwith, livnum, employ, pabt, covdxyn, prepos, asth, cld, hd, hyp, cayr, immun, hiv, diab, kdrd, livd, scd, obes, mh, subabu, mcoth, mcothsp, pcr_ab_positivity, enrwk, enrwkc, enryr, psu_weight, samplinkfl, base_weight) </code></pre>
+<p>I included 39 variables agegroup race ehtnicity educationlevel income
+level</p>
 <p>Questions: Is 5 the category for missing age group. was
-covthnk_decoded asked for adults only? I dont have access to tthe
+covthnk_decoded asked for adults only? I dont have access to the
 variable AGED which is the numeric age..why?</p>
+<pre class="r"><code>mean_temp = temperature_in_f &lt;- c(33,36,39,44,47,44,42)
+mean(mean_temp)</code></pre>
+<pre><code>## [1] 40.71429</code></pre>
+<p>The average temperature is 33, 36, 39, 44, 47, 44, 42 today</p>
 
 
 
